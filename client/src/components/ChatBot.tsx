@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { User } from "@shared/schema";
-import { useChat } from "@/hooks/useChat";
-import { useToast } from "@/hooks/use-toast";
+import { useChat } from "../hooks/useChat";
+import { useToast } from "../hooks/use-toast";
 
 interface ChatBotProps {
   user: User | null;

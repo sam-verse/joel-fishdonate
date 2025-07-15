@@ -1,4 +1,4 @@
-import DemoAlertGenerator from "@/components/DemoAlertGenerator";
+import DemoAlertGenerator from "../DemoAlertGenerator";
 
 export default function AlertsSection() {
   const alertTypes = [

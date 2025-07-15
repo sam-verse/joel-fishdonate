@@ -1,15 +1,15 @@
-import { useAuth } from "@/hooks/useAuth";
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import ChallengesSection from "@/components/sections/ChallengesSection";
-import ChatbotSection from "@/components/sections/ChatbotSection";
-import AlertsSection from "@/components/sections/AlertsSection";
-import ImpactSection from "@/components/sections/ImpactSection";
-import DonationForm from "@/components/DonationForm";
-import Dashboard from "@/components/Dashboard";
-import ChatBot from "@/components/ChatBot";
-import AlertSystem from "@/components/AlertSystem";
-import AppDemo from "@/components/AppDemo";
+import { useAuth } from "../hooks/useAuth";
+import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
+import ChallengesSection from "../components/sections/ChallengesSection";
+import ChatbotSection from "../components/sections/ChatbotSection";
+import AlertsSection from "../components/sections/AlertsSection";
+import ImpactSection from "../components/sections/ImpactSection";
+import DonationForm from "../components/DonationForm";
+import Dashboard from "../components/Dashboard";
+import ChatBot from "../components/ChatBot";
+import AlertSystem from "../components/AlertSystem";
+import AppDemo from "../components/AppDemo";
 
 export default function Home() {
   const { user, login, logout } = useAuth();

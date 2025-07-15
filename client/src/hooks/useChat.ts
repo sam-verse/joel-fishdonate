@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChatMessage } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
+import { apiRequest } from "../lib/queryClient";
 
 export function useChat(userId?: number) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);

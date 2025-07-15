@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { User, Donation, Alert } from "@shared/schema";
-import { useDonations } from "@/hooks/useDonations";
-import { useAlerts } from "@/hooks/useAlerts";
+import { useDonations } from "../hooks/useDonations";
+import { useAlerts } from "../hooks/useAlerts";
 
 interface DashboardProps {
   user: User;

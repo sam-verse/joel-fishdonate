@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useAlerts } from "@/hooks/useAlerts";
-import { notificationService } from "@/lib/notifications";
+import { useAlerts } from "../hooks/useAlerts";
+import { notificationService } from "../lib/notifications";
 
 export default function AlertSystem() {
   const { alerts, dismissAlert } = useAlerts();

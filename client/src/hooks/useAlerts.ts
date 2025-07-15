@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Alert } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
+import { apiRequest } from "../lib/queryClient";
 
 export function useAlerts() {
   const [alerts, setAlerts] = useState<Alert[]>([]);

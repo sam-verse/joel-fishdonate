@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useAlerts } from "@/hooks/useAlerts";
-import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
+import { useAlerts } from "../hooks/useAlerts";
+import { useToast } from "../hooks/use-toast";
+import { apiRequest } from "../lib/queryClient";
 
 export default function DemoAlertGenerator() {
   const [isGenerating, setIsGenerating] = useState(false);

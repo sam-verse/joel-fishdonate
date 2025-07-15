@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { User } from "@shared/schema";
-import { useAlerts } from "@/hooks/useAlerts";
-import { useDonations } from "@/hooks/useDonations";
-import { useChat } from "@/hooks/useChat";
-import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
+import { useAlerts } from "../hooks/useAlerts";
+import { useDonations } from "../hooks/useDonations";
+import { useChat } from "../hooks/useChat";
+import { useToast } from "../hooks/use-toast";
+import { apiRequest } from "../lib/queryClient";
 
 interface AppDemoProps {
   user: User | null;

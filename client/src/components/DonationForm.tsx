@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { User } from "@shared/schema";
-import { useDonations } from "@/hooks/useDonations";
-import { useToast } from "@/hooks/use-toast";
+import { useDonations } from "../hooks/useDonations";
+import { useToast } from "../hooks/use-toast";
 
 interface DonationFormProps {
   user: User | null;

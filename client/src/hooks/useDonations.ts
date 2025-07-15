@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Donation } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
+import { apiRequest } from "../lib/queryClient";
 
 export function useDonations(userId?: number) {
   const [donations, setDonations] = useState<Donation[]>([]);
